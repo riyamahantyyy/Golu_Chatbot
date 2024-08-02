@@ -6,10 +6,11 @@ body {
 }
 
 header {
-    background-color: #ff5733;
+    
     text-align: center;
     padding: 20px;
-    color: #fff;
+    color: #ea840f;
+    
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 nav a {
     margin: 0 10px;
     text-decoration: none;
-    color: #fff;
+    color: #ea840f;
     transition: color 0.3s ease-in-out;
 }
 
@@ -29,19 +30,20 @@ nav a:hover {
 }
 
 section {
-    margin: 20px;
+    margin: 0px;
     background-color: #fff;
-    border-radius: 8px;
+    border-radius: 0px;
     padding: 20px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    
 }
 
 section h2 {
-    color: #ff5733;
+    color: #ea840f;
+    
 }
 
 footer {
-    background-color: #ff5733;
+    background-color: #ea840f;
     text-align: center;
     padding: 10px;
     color: #fff;
@@ -56,7 +58,9 @@ footer {
     bottom: 20px;
     border: none;
     z-index: 1000; 
-}
+    display: inline;
+} 
+
 .container {
     margin: 0 auto;
     max-width: 1200px; /* or any other value */
@@ -76,3 +80,4 @@ section img {
     width: 100%;
     height: auto;
 }
+
