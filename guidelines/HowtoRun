@@ -1,0 +1,14 @@
+Running the project
+
+to normally check the integration and frontend 
+>>go to vs code and 
+>>run home.html
+
+to connect with db and then run frontend
+>> Open the backend files in pycharm
+>> run main.py file by writing uvicorn main:app --reload
+>> install ngrok in the chatbot folder
+>> ngrok http 8000 in cmd
+>> copy the ngrok link and paste it in fullfillment url of dialogflow
+>> click save
+>> open frontend and run home.html
